@@ -1,0 +1,24 @@
+languageCode = "en"
+languageName = "English"
+languageDirection = "ltr"
+weight = 1
+
+title = "cruxqsec"
+copyright = ""
+
+[params]
+  dateFormat = "2 January 2006"
+
+   mainSections = ["section1", "section2"]
+   description = "cruxqsec blog"
+
+[params.author]
+   name = "cruxqsec"
+   image = "profile.png"
+   headline = "Programmer/Security researcher"
+   bio = "A blog about security/programming related topics."
+   links = [
+     { github = "https://github.com/cruxqsec" },
+     { htb = "https://app.hackthebox.com/public/users/157126" },
+     { email = "mailto:cruxqsec@proton.me" },
+   ]
