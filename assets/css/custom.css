@@ -1,13 +1,13 @@
 /* Increase the default font size */
 html {
-  font-size: 80%;
+  font-size: 100%;
 }
 
 .prose code::before {
-    content: ''
+    content: '';
 }
 
 .prose code::after {
-    content: ''
+    content: '';
 }
 

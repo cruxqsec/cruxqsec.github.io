@@ -3,7 +3,7 @@ author: cruxqsec
 date: '2024-06-21'
 description: Easy difficulty web challenge from Hack the box
 summary: Easy difficulty web challenge from Hack the box
-tags: ["htb", "web-challenge", "PHP"]
+tags: ["htb", "web-challenge", "PHP", "parameter-pollution"]
 title: HTB HTBank
 ---
 

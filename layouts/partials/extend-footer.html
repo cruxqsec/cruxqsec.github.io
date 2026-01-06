@@ -1,0 +1,8 @@
+{{/*  Zooming.js  */}}
+{{ $zooming_js := resources.Get "js/zooming.js" }}
+{{- if hugo.IsProduction -}}
+    {{ $zooming_js = $zooming_js | js.Build (dict "minify" true) | resources.Fingerprint "sha256" -}}
+{{- else -}}
+    {{ $zooming_js = $zooming_js | js.Build -}}
+{{- end -}}
+<script defer src="{{ $zooming_js.RelPermalink }}" integrity="{{- $zooming_js.Data.Integrity -}}"></script>
